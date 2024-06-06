@@ -4,6 +4,10 @@ import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+
+const drawer = createDrawerNavigator();
 
 export default function HomeScreen() {
   return (
